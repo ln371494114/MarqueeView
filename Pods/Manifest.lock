@@ -1,0 +1,27 @@
+PODS:
+  - LNCoreFoundation (0.0.1):
+    - Masonry
+    - MJExtension
+    - ReactiveCocoa (~> 2.5)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - LNCoreFoundation
+
+SPEC CHECKSUMS:
+  LNCoreFoundation: 0c07f37be141ddf75f2961a92c2ad6a8061dcd52
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 15c7de93b78791e5ba6dae64bcf4003c5f763d66
+
+COCOAPODS: 1.4.0

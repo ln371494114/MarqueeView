@@ -1,0 +1,6 @@
+framework module LNCoreFoundation {
+  umbrella header "LNCoreFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

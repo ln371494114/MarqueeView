@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "MarqueeView.h"
+#import <LNCoreFoundation/DKMacros.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    MarqueeView *view = [[MarqueeView alloc] initWithFrame:CGRectMake(24, 100, kScreenWidth - 48, 44) withTittle:@[@"xixixxxxxxx", @"nnnnnnnnn", @"vvvvvvvvvvvv", @"bbbbbbbbbb"] leftImage:nil];
+    view.backgroundColor = [UIColor orangeColor];
+    view.handlerTitleClickCallBack = ^(NSInteger index) {
+        NSLog(@"------ %ld -----", (long)index);
+    };
+    [self.view addSubview:view];
 }
 
 
